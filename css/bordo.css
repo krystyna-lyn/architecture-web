@@ -1,0 +1,19 @@
+body{
+    background: url('../img/bg-bordo.jpg');
+    background-size: cover;
+ }
+
+#menu ul li a:hover{
+    background: rgb(159, 45, 52);
+    color: #fff;
+}
+.read-more{
+ 
+    background: rgb(159, 45, 52);
+  
+  }
+  @media (max-width:480px) {
+    body {
+        background: url(../img/bg-smart-bordo.jpg);
+        background-size: cover;
+    }}

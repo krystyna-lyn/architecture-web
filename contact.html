@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/import.css">
+    <link id="theme" rel="stylesheet" href="css/gray.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<!-- My Validator -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <!-- My Scripts -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+   
+
+    <!--Moment js-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/de.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <div id="selector-theme">
+        <div id="to-blue"></div>
+        <div id="to-bordo"></div>
+        <div id="to-gray"></div>
+    </div>
+    <section id="global">
+        <header>
+            <!--Cabecera-->
+            <div id="logo"><a href="index.html">
+                <h4>Architecture</h4><h6>& ConstructionFIRM</h6></a>
+                </div>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">News</a></li>
+                    <li><a href="reloj.html">Time</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--Content-->
+        <section id="content">
+
+<div id="contact">
+	<h2>Contact us</h2>
+    <form action="" method="POST" id="form_contact">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" data-validation="alphanumeric">
+
+        <label for="surname">Surname</label>
+        <input type="text" name="surname" id="surname" data-validation="alphanumeric">
+
+ <label for="email">Email</label>
+        <input type="email" name="email" data-validation="email">
+
+    <label for="country">Sex</label>
+    <select id="country" name="country" data-validation="required">
+
+      <option value="man">Man</option>
+      <option value="woman">Woman</option>
+      
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." ></textarea><br>
+
+    <input type="submit" value="Submit">
+
+    </form>
+
+	
+			
+        </div>
+
+
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>Buildings</span></h4>
+                    <img src="img/3.jpg" alt="building">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus eligendi ratione
+                        reiciendis molestias quas corporis ipsa, saepe et quasi!</p>
+                </div>
+
+                <div id="login">
+                    <h4><span>Login</span></h4>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="form_name">
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+
+                        <label for="password">Password</label>
+                        <input type="password" name="password"><br>
+
+                        <input type="submit" value="Entry">
+                    </form>
+                </div>
+
+            </aside>
+
+        </section>
+
+    </section>
+    <a href="#" class="to-top">Scroll to top</a>
+    <footer>
+        <p>Web by KrysLyn Copyright © 2020</p>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

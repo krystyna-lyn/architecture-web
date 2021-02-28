@@ -1,0 +1,26 @@
+
+body{
+    background: url('../img/blue1.jpg');
+    background-size: cover;
+ }
+
+#menu ul li a:hover{
+    background: rgb(50, 86, 155) ;
+    color: #fff;
+}
+.read-more{
+ 
+    background: rgb(50, 86, 155) ;  
+  
+  }
+  
+  @media (max-width:480px) {
+    body {
+        background: url(../img/bg-smart-blue.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    
+  }

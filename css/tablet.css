@@ -1,0 +1,32 @@
+
+#logo{
+    font-size: 35px;
+}
+#menu{
+    width: 120%;
+}
+.to-top {
+    color: #fcf6f6;
+}
+
+
+#selector-theme {
+    margin-left: 90px;
+    float: left;
+}
+#contact{
+    margin-top: 50px;
+  
+    }
+#subject{
+width: 200px;
+height: 100px;
+}
+
+#contact h2{
+margin-right: 115px;
+}
+#form_contact, select, textarea, label {
+display: block;
+width: 55%;
+}

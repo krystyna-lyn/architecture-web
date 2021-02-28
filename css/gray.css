@@ -1,0 +1,26 @@
+body{
+    background: url('../img/8.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+
+ }
+
+#menu ul li a:hover{
+    background: rgb(82, 80, 80) ;
+    color: #fff;
+}
+.read-more{
+ 
+    background:#333;  
+  
+  }
+  @media (max-width:480px) {
+    body {
+        background: url(../img/bg-smart1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    
+  }

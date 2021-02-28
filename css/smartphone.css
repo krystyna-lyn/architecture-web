@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+
+    
+html, body, div, span, o h1, h2, h3, h4, h5, h6, p, strong,ul, li, form, label, header,article {
+    margin: -3px;
+    padding: 5px;
+
+  }
+
+#global {
+  margin: 0 5%;
+}
+#selector-theme{
+    margin-right: 0px;
+    margin-top: 5px;
+    float: left;
+  
+}
+
+
+#logo{
+    letter-spacing: 0px;
+    line-height: 24px;
+    font-size:110%;
+    margin: 0 77px 10px 52px;
+}
+
+
+
+#container {
+    margin-top:-60px;
+    overflow: auto;
+}
+#menu {
+    margin-top:20%;
+     width: 100%;
+  /*für wirklich extrem kleine Displays, erzeugt ein Srollbar und somit eine Scrollmöglichkeit*/
+    overflow: auto;
+
+}
+#menu ul li a {
+    display: block;
+    font-size: 90%;
+    font-weight: bold;
+    line-height: 0px;
+    padding-right:30px ;
+    margin: 20px;
+    text-align: center;
+  /* CSS Hack, um es in Google Chrome anzupassen*/
+  -webkit-padding-before: 0.87em;
+  -webkit-padding-after: 0.87em;
+}
+
+element.style {
+    max-width:20%;
+}
+
+#slider{
+    margin-left: 0px;
+}
+#slider .bx-wrapper {
+background: none;
+border: none;
+}
+#slider 
+.bx-wrapper .bx-controls-direction a {
+    top:30%;
+}
+ .bx-viewport{
+height: 135px !important;
+}
+.post{
+    width: 120%;
+    padding: 25%;
+   
+}
+#posts{
+    width: 50%;
+}
+#sidebar{
+    margin-left: 6px;
+    width: 75%;
+}
+#content{
+width: 300px;
+}
+
+#to-blue, #to-bordo, #to-gray {
+    width: 10px;
+    height: 10px;
+}
+
+    #acordeon{
+        margin-top: 20px;
+        width: 115%;
+    }
+    #box{
+       margin-top: 20px;
+       width: 250px;
+        }
+    #reloj{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#333;
+        border: 5px dashed black;
+        width: 60%;
+        padding:30px;
+        margin: 0px auto;
+        text-align: center;
+    }
+   
+    #contact{
+        margin-top: 50px;
+      
+        }
+#subject{
+    width: 200px;
+    height: 100px;
+}
+
+#contact h2{
+    margin-right: 115px;
+}
+#form_contact, select, textarea, label {
+    display: block;
+    width: 55%;
+}
+.form-error {
+    font-size: 5px;
+}

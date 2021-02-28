@@ -1,0 +1,22 @@
+#contact{
+margin-top: 50px;
+
+}
+
+#form_contact, select, textarea, label{
+    display: block;
+	width: 60%;
+    padding: 10px; 
+   
+}
+
+
+.form-error{
+
+    font-size: 15px;
+    background: rgba(219, 95, 95, 0.562);
+    padding: 10px;
+    width: 65%;
+
+}
+
